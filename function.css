@@ -1,0 +1,39 @@
+﻿.function-plot .x.axis .tick line{
+  /* font-size: 14px; */
+  /* color: aqua; */
+  opacity: 0.1;
+  stroke: rgb(147, 160, 29)!important;
+}
+.function-plot .y.axis .tick line{
+  /* font-size: 14px; */
+  /* color: aqua; */
+  opacity: 0.1;
+  stroke: rgb(147, 160, 29)!important;
+}
+
+.function-plot {
+  margin-left: 12px;
+  background-color: rgb(32,34,32);
+  color: rgba(222, 243, 189, 0.623);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.function-plot .y.origin  {
+  stroke: white;
+}
+
+.function-plot .x.origin  {
+  stroke: rgb(255, 255, 255);
+}
+.function-plot .title {
+  stroke: rgba(255, 255, 255, 0.815);
+}
+
+.function-plot .canvas .graph .line-0 {
+    stroke-width: 2;
+    stroke: #ff0000;
+}
+.function-plot .canvas .graph .line-1 {
+    stroke-width: 2;
+    stroke: #e5ff00;
+}
