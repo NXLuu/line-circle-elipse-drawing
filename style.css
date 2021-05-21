@@ -33,6 +33,7 @@
 .container1 {
     /* border: 2px; */
     /* margin-right: 60px; */
+    position: relative;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     width: fit-content;
     margin-left: 20px;
@@ -263,4 +264,13 @@
 }
 .macos  .green {
     background-color: #25C93F;
+}
+#cordidates {
+    position: absolute;
+    top: -30px;
+    color: rgb(141, 1, 1);
+    font-size: 1.4rem;
+    font-weight: 800;
+    /* background-color: black; */
+    /* color: yellow; */
 }
